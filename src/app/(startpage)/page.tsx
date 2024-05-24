@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Eye,EyeOff } from "lucide-react";
 import { Icon } from 'lucide-react';
 
-export default function login() {
+export default function Login() {
   const router = useRouter()
 
   const [password, setPassword] = useState<string>("");
@@ -24,7 +24,9 @@ export default function login() {
       <div className="flex items-center justify-center py-12">
         <div className="mx-auto grid w-[350px] gap-6">
           <div className="grid gap-2 text-center">
-            <h1 className="text-3xl font-bold">Login</h1>
+            <Image src="/img/logo-april.png" alt="image" width='140' height="140"  className="lg:absolute lg:left-6 lg:top-6 md:relative" />
+            <h1 className="text-2xl font-bold">Terminal Inventory System</h1>
+            <h1 className="text-1xl font-medium text-muted-foreground">Login</h1>
 
           </div>
           <div className="grid gap-4">

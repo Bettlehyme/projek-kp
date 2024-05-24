@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button"
 
 
-export default function dashboard() {
+export default function InventoryStatus() {
   const route = useRouter()
   return (
   
@@ -19,7 +19,7 @@ export default function dashboard() {
           >
             <div className="flex flex-col items-center gap-1 text-center">
               <h3 className="text-2xl font-bold tracking-tight">
-                You don't have anything yet
+                You don&apos;t have anything yet
               </h3>
               <p className="text-sm text-muted-foreground">
                 Soon this website will be finish
